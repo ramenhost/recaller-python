@@ -25,16 +25,18 @@ Get Started:
     
     4.create a contacts.txt file and add one mobile number per line to send sms.
     
-    Run the script to and follow the instructions to sign in.
+    Run the script and follow the instructions to sign in.
  
 To schedule the script to run daily:
-    Linux:
-        use crontab
-        open the crontab file using the following command
+
+    Linux
+        to use crontab
+        
+        1.open the crontab file using the following command
           
            crontab -e
           
-        Add the following line in the file
+        2.Add the following line in the file
            
            <min> <hour> * * * cd <path_to_the_recaller_directory>/recaller && ./recaller.py
     
